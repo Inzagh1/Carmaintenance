@@ -65,13 +65,13 @@
               <div class="chat chat-start">   
                 <div class="chat-bubble bg-green-950 ">
                   <div class="w-[250px]  ">
-                    <div class="w-full">
-                        <span class="text-[13px] font-bold">Order Guide:</span><br/>
-                        <span class="text-[13px]">To start your order journey, 
-                          simply head over to our <button class="font-medium hover:text-yellow-600   ">Shop page.</button>  From there, you'll
-                          have the delightful choice between bringing your dream 
-                          design to life or selecting from our fabulous preset
-                          templates.
+                    <div class="">
+                          <span class="text-[13px] font-bold">Order Guide:</span><br/>
+                          <span class="text-[13px]">To start your order journey, 
+                            simply head over to our <button class="font-medium hover:text-yellow-500   ">Shop page.</button>  From there, you'll
+                            have the delightful choice between bringing your dream 
+                            design to life or selecting from our fabulous preset
+                            templates.
                           <br/>
                           <br/>
                           <span class="text-[13px] font-semibold ">Order Process:</span><br/>
