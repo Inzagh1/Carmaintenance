@@ -19,7 +19,7 @@
       const user = userCredential.user;
       // Handle successful login
       console.log('User logged in:', user);
-      window.location.href = '/pages/home';
+      window.location.href = '/pages/adminpage';
     } catch (error) {
       // Handle errors
       // @ts-ignore
@@ -56,7 +56,9 @@
     const newUserDoc = await addDoc(usersCollection, {
       username: username2,
       email: email2,
+      role: "customer"
     });
+  
     console.log('User signed up:', user);
     console.log('User document added to Firestore with ID:', newUserDoc.id);
     window.location.href = '/pages/home';
